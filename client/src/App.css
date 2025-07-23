@@ -1,0 +1,28 @@
+/* Additional app-specific styles */
+.App {
+  text-align: center;
+}
+
+/* Toast notification overrides */
+.Toastify__toast {
+  border-radius: 12px;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #f56565 0%, #e53e3e 100%);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+  }
+}
